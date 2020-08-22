@@ -1,0 +1,14 @@
+.about {
+  background-color: $color-grey;
+  color: $color-primary;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  text-align: center;
+
+  &__text {    
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 0 50rem;
+    line-height: 1.7;
+  }
+}

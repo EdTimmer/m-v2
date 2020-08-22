@@ -8,7 +8,7 @@ const Nav = () => {
       <ul className="nav__list">
         <li>
           <a href="#" className="nav__link">
-            Expertise
+            About
           </a>
         </li>
 
@@ -26,16 +26,9 @@ const Nav = () => {
 
         <li>
           <a href="#" className="nav__link">
-            Skills
+            Education
           </a>
         </li>
-
-        <li>
-          <a href="#" className="nav__link">
-            Contact
-          </a>
-        </li>
-
 
       </ul>
     </div>
