@@ -6,27 +6,33 @@ const Header = () => {
       <div className="card">
         <div className="photo"></div>
         <div className="info">
-          <h1 className="heading-1 margin-bottom-small">Maria Josefson</h1>
-          <h3 className="heading-3 heading-3 margin-bottom-medium">
-            GIS Professional
-          </h3>
+          <div className="info__name">
+            <h1 className="heading-1 margin-bottom-small">Maria Josefson</h1>
+            <h3 className="heading-3 heading-3--spaced margin-bottom-medium">
+              GIS Professional
+            </h3>
+          </div>
 
-          <h3 className="heading-3">Skills:</h3>
-          <p className="paragraph paragraph--skills">ArcGIS Desktop/Pro</p>
-          <p className="paragraph paragraph--skills">ArcGIS Online</p>
-          <p className="paragraph paragraph--skills">JavaScript</p>
-          <p className="paragraph paragraph--skills">Python</p>
-          <p className="paragraph paragraph--skills">SQL</p>
-          <p className="paragraph paragraph--skills margin-bottom-large">
-            Microsoft Office Suite
-          </p>
+          <div className="info__about">
+            {/* <h3 className="heading-3--lowercase margin-bottom-small">
+              About me:
+            </h3> */}
+            <div className="paragraph--large margin-bottom-medium">
+              I work with Geographic Information System (GIS) and have a passion
+              for public service. I have 11 years of experience and find
+              fullfillment in being able to deliver results while using latest available tools.
+            </div>
+          </div>
 
-          <h3 className="heading-3">Email:</h3>
-          <p className="paragraph margin-bottom-small">
-            Josefson.Maria@gmail.com
-          </p>
-          <h3 className="heading-3">Address:</h3>
-          <p className="paragraph">Swampscott, MA</p>
+          <div className="info__email">
+            <h3 className="heading-3--lowercase margin-bottom-small">Email:</h3>
+            <p className="paragraph--large">
+              Josefson.Maria@gmail.com
+            </p>
+          </div>
+
+          {/* <h3 className="heading-3--lowercase margin-bottom-small">Address:</h3>
+          <p className="paragraph--large">Swampscott, MA</p> */}
         </div>
         {/* <div className="bottom">
         </div> */}

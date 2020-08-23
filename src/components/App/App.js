@@ -9,7 +9,8 @@ import Experience from "../Experience/Experience";
 import Publications from "../Publications/Publications";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
-
+import Skills from "../Skills/Skills";
+// import Gap from "../Gap/Gap";
 
 const App = () => {
   return (
@@ -17,8 +18,9 @@ const App = () => {
       <Nav />
 
       <Header />
-
-      <About />
+      {/* <Gap /> */}
+      <Separator title={"Skills"} />
+      <Skills />
 
       <Separator title={"Experience"} />
 

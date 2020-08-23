@@ -5,6 +5,7 @@
   // background-image: url(../../images/boston2.jpg);
   background-size: cover;
   background-position: bottom;
+  margin-bottom: 5rem;
 
   display: grid;
   justify-items: center;
@@ -40,8 +41,25 @@
     grid-row: 1 / 2;
     background-color: #fff;
     color: $color-primary;
-    padding: 5rem 0 0 8rem;
+    padding: 2rem 5rem;
     animation: moveInLeft 1s ease-in;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+
+    &__name {
+      grid-row: 1 / 2;
+    }
+
+    &__about {
+      grid-row: 2 / 3;
+    }
+
+    &__email {
+      grid-row: 3 / 4;
+    }
   }
 
   .bottom {

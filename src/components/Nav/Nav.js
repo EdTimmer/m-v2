@@ -6,11 +6,11 @@ const Nav = () => {
       <h1 className="nav__name heading-1">Maria Josefson</h1>
 
       <ul className="nav__list">
-        {/* <li>
+        <li>
           <a href="#" className="nav__link">
-            About
+            Skills
           </a>
-        </li> */}
+        </li>
 
         <li>
           <a href="#" className="nav__link">
@@ -20,7 +20,7 @@ const Nav = () => {
 
         <li>
           <a href="#" className="nav__link">
-            Publications
+            Academic Publications
           </a>
         </li>
 

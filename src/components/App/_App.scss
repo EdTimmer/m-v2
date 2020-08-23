@@ -76,14 +76,24 @@ $color-grey: rgb(241,241,241);
   color: $color-primary;  
   font-weight: 700;
   text-transform: uppercase;
+
+  &--spaced {
+    letter-spacing: .2rem;
+  }
+
+  &--lowercase {
+    font-size: 1.4rem;
+    text-transform: none;
+    // font-weight: 500;
+  }
 }
 
 .heading-company {
   font-size: 1.4rem;
   color: $color-primary;  
   text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: .5rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
   padding-bottom: 1rem;
 }
 
@@ -127,6 +137,12 @@ $color-grey: rgb(241,241,241);
 
   &--skills {
     font-size: 1.6rem;
+    line-height: 1.7;
+  }
+
+  &--large {
+    font-size: 1.8rem;
+    font-weight: 300;
     line-height: 1.7;
   }
 }
