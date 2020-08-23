@@ -3,14 +3,12 @@ import '../../main.scss';
 
 import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
-import About from "../About/About";
 import Separator from "../Separator/Separator";
 import Experience from "../Experience/Experience";
 import Publications from "../Publications/Publications";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
 import Skills from "../Skills/Skills";
-// import Gap from "../Gap/Gap";
 
 const App = () => {
   return (
@@ -18,17 +16,26 @@ const App = () => {
       <Nav />
 
       <Header />
-      {/* <Gap /> */}
-      <Separator title={"Skills"} />
-      <Skills />
+      <div id="skills">
+        <Separator title={"Skills"} />
+        <Skills />
+      </div>
 
-      <Separator title={"Experience"} />
+      <div id="experience">
+        <Separator title={"Experience"} />
+        <Experience />
+      </div>
 
-      <Experience />
-      <Separator title={"Academic Publications"} />
-      <Publications />
-      <Separator title={"Education"} />
-      <Education />
+      <div id="publications">
+        <Separator title={"Academic Publications"} />
+        <Publications />
+      </div>
+
+      <div id="education">
+        <Separator title={"Education"} />
+        <Education />
+      </div>
+
       <Footer />
     </div>
   );

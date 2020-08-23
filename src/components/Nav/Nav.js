@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <div className="nav">
@@ -7,29 +11,36 @@ const Nav = () => {
 
       <ul className="nav__list">
         <li>
-          <a href="#" className="nav__link">
-            Skills
-          </a>
+          <BrowserRouter>
+            <Link smooth to="/#skills" className="nav__link">
+              Skills
+            </Link>
+          </BrowserRouter>
         </li>
 
         <li>
-          <a href="#" className="nav__link">
-            Experience
-          </a>
+          <BrowserRouter>
+            <Link smooth to="/#experience" className="nav__link">
+              Experience
+            </Link>
+          </BrowserRouter>
         </li>
 
         <li>
-          <a href="#" className="nav__link">
-            Academic Publications
-          </a>
+          <BrowserRouter>
+            <Link smooth to="/#publications" className="nav__link">
+              Academic Publications
+            </Link>
+          </BrowserRouter>
         </li>
 
         <li>
-          <a href="#" className="nav__link">
-            Education
-          </a>
+          <BrowserRouter>
+            <Link smooth to="/#education" className="nav__link">
+              Education
+            </Link>
+          </BrowserRouter>
         </li>
-
       </ul>
     </div>
   );

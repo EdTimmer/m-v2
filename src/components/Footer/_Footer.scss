@@ -8,10 +8,15 @@
   justify-content: center;
   align-content: center;
 
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+  }
+
   &__btn {
     background-color: $color-grey;
     padding: 1rem 3rem;
-    border-radius: 3px;
+    border-radius: 2px;
     color: $color-primary;
     text-transform: uppercase;
     cursor: pointer;
@@ -20,6 +25,11 @@
 
     &:hover {
       background-color: #fff;
+    }
+
+    &:active {
+      background-color: $color-primary;
+      color: #fff;
     }
   }
 }

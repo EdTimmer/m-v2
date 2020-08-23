@@ -1,0 +1,13 @@
+.skills {
+  padding: 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 10rem;
+  justify-content: center;
+
+  &__left {
+    
+    // justify-self: start;
+  }
+}

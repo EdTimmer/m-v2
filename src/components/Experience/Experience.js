@@ -7,7 +7,6 @@ const Experience = () => {
         <div className="details-container__vertical-bar"></div>
 
         <div className="details">
-
           <div className="details--left">
             <h3 className="heading-job">GIS Coordinator</h3>
             <h3 className="heading-year">May 2014 - June 2020</h3>
