@@ -3,6 +3,7 @@ $font-display: 'Josefin Sans', sans-serif;
 
 $color-primary: rgb(24,33,83);
 $color-grey: rgb(241,241,241);
+$color-blue: rgb(5, 167, 254);
 
 .app {
   background-color: #fff;
@@ -157,4 +158,10 @@ $color-grey: rgb(241,241,241);
 
 .margin-bottom-small {
   margin-bottom: 1rem;
+}
+
+.outside-link:link,
+.outside-link:visited {
+  text-decoration: none;
+  color: $color-blue;
 }

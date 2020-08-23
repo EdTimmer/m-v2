@@ -22,15 +22,64 @@ const Experience = () => {
             <p className="paragraph paragraph--description">
               Provided in-house GIS expertise for a medium-sized urban
               municipality. Collected, created, updated and managed geospatial
-              data for city departments. Maintained Online Maps and Apps portal,
-              prepared clear and engaging city maps, designed custom-tailored
-              web maps. Fulfilled internal and external geodata and mapping
-              requests. Assisted coworkers with varying technical skills on how
-              to use GIS tools and interpret GIS data. Non-GIS Planning
-              Projects: awarded and completed a $12,000 MHC Historical Survey &
-              Planning Grant FY2017; facilitated Open Space Initiatives with
-              MAPC: Everett Earthworks: A Ripple Effect and Jon Norton Community
-              Rain Garden.
+              data for city departments. Maintained{" "}
+              <a
+                href="https://everettma.maps.arcgis.com/home/index.html"
+                className="outside-link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Online Maps and Apps
+              </a>{" "}
+              portal, prepared clear and engaging city maps, designed
+              custom-tailored web maps. Fulfilled internal and external geodata
+              and mapping requests. Assisted coworkers with varying technical
+              skills on how to use GIS tools and interpret GIS data.
+              <p className="paragraph paragraph--description">
+                Non-GIS Planning Projects: awarded and completed a $12,000{" "}
+                <a
+                  href="https://www.sec.state.ma.us/mhc/mhcspg/spg-recipients.htm"
+                  className="outside-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  MHC Historical Survey & Planning Grant FY2017
+                </a>
+                ; facilitated Open Space Initiatives with MAPC:{" "}
+                <a
+                  href="https://carolynl.net/2018/10/09/everett-earthworks-a-ripple-effect/"
+                  className="outside-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Everett Earthworks: A Ripple Effect
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://everettindependent.com/2019/11/08/a-conservationist-before-conservation-was-cool/"
+                  className="outside-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Jon Norton
+                </a>{" "}
+                <a
+                  href="https://everettindependent.com/2019/11/08/rain-garden-goes-from-paper-to-purpose-on-wyllis-avenue/"
+                  className="outside-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Community
+                </a>{" "}
+                <a
+                  href="https://carolynl.net/2019/06/17/muddle-the-puddle-transforming/"
+                  className="outside-link"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Rain Garden
+                </a>.
+              </p>
             </p>
           </div>
 
@@ -47,14 +96,39 @@ const Experience = () => {
               City of Everett, Everett Cultural Council
             </h3>
             <p className="paragraph paragraph--description">
-              Reconvened and administratively supported the Everett Cultural
-              Council. Recruited and onboarded new members, organized and
-              facilitated meetings in accordance with Open Meeting Law,
-              maintained financial records and processed reimbursements for over
-              $20,000 in grant funding annually. In collaboration with the
-              Communications Department, created the City Hall Art Gallery and
-              held three art exhibits. Awarded a $4,446 Grant from the Everett
-              Citizens Foundation on behalf of the Cultural Council.
+              Reconvened and administratively supported the{" "}
+              <a
+                href="https://www.facebook.com/EverettCulturalCouncil/"
+                className="outside-link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Everett Cultural Council
+              </a>
+              . Recruited and onboarded new members, organized and facilitated
+              meetings in accordance with Open Meeting Law, maintained financial
+              records and processed reimbursements for over $20,000 in grant
+              funding annually. In collaboration with the Communications
+              Department, created the City Hall Art Gallery and held three art
+              exhibits. Awarded a{" "}
+              <a
+                href="https://everettindependent.com/2020/02/13/everett-citizens-foundation-announces-grant-awards/"
+                className="outside-link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                $4,446 Grant
+              </a>{" "}
+              from the{" "}
+              <a
+                href="http://www.cityofeverett.com/719/The-Everett-Citizens-Foundation"
+                className="outside-link"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Everett Citizens Foundation
+              </a>{" "}
+              on behalf of the Cultural Council.
             </p>
           </div>
 
