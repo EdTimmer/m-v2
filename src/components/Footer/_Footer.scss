@@ -1,0 +1,25 @@
+.footer {
+  // background-color: $color-primary;
+  padding: 7rem;
+  background-image: linear-gradient(rgba($color-primary, .8), rgba($color-primary, .8)), url(../../images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  &__btn {
+    background-color: $color-grey;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    color: $color-primary;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: .2rem;
+
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.publications {
+  padding: 5rem 30rem;
+  color: $color-primary;
+
+  &__item {
+    font-weight: 300;
+
+  }
+
+  &__item:not(:last-child) {
+    padding-bottom: 2rem;
+  }
+}
+
+// .pub {
+  
+// }

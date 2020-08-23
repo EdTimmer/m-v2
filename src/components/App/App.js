@@ -6,6 +6,9 @@ import Header from '../Header/Header';
 import About from "../About/About";
 import Separator from "../Separator/Separator";
 import Experience from "../Experience/Experience";
+import Publications from "../Publications/Publications";
+import Education from "../Education/Education";
+import Footer from "../Footer/Footer";
 
 
 const App = () => {
@@ -20,8 +23,11 @@ const App = () => {
       <Separator title={"Experience"} />
 
       <Experience />
-      
+      <Separator title={"Academic Publications"} />
+      <Publications />
       <Separator title={"Education"} />
+      <Education />
+      <Footer />
     </div>
   );
 }
