@@ -6,8 +6,8 @@
   grid-gap: 10rem;
   justify-content: center;
 
-  &__left {
-    
-    // justify-self: start;
+  @media only screen and (max-width: 43.75em) {  
+    grid-gap: 5rem;
+    padding: 2rem;
   }
 }

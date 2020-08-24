@@ -1,10 +1,17 @@
 .publications {
-  padding: 5rem 30rem;
+  padding: 5rem;
   color: $color-primary;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  @media only screen and (max-width: 43.75em) {  
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 
   &__item {
     font-weight: 300;
-
   }
 
   &__item:not(:last-child) {
@@ -12,6 +19,3 @@
   }
 }
 
-// .pub {
-  
-// }
