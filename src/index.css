@@ -18,12 +18,11 @@ html {
 }
 
 /* screen size: <= 900px; html font-size: 8px */
-@media only screen and (max-width: 56.25em) {
+/* @media only screen and (max-width: 56.25em) {
   html {
     font-size: 50%;
-  }
-  
-}
+  }  
+} */
 
 body {
   box-sizing: border-box;
