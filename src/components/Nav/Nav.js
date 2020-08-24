@@ -41,6 +41,14 @@ const Nav = () => {
             </Link>
           </BrowserRouter>
         </li>
+
+        <li>
+          <BrowserRouter>
+            <Link smooth to="/#languages" className="nav__link">
+              Languages
+            </Link>
+          </BrowserRouter>
+        </li>
       </ul>
     </div>
   );

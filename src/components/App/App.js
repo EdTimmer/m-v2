@@ -9,6 +9,7 @@ import Publications from "../Publications/Publications";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
 import Skills from "../Skills/Skills";
+import Languages from "../Languages/Languages";
 
 const App = () => {
   return (
@@ -34,6 +35,11 @@ const App = () => {
       <div id="education">
         <Separator title={"Education"} />
         <Education />
+      </div>
+
+      <div id="languages">
+        <Separator title={"Languages"} />
+        <Languages />
       </div>
 
       <Footer />
