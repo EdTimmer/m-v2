@@ -4,6 +4,11 @@
   margin-left: 5rem;
   margin-right: 5rem;
 
+  @media only screen and (min-width: 112.5em) {  
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+
   @media only screen and (max-width: 43.75em) {  
     padding: 2rem;
     margin-left: 3rem;
