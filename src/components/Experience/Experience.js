@@ -35,7 +35,7 @@ const Experience = () => {
               custom-tailored web maps. Fulfilled internal and external geodata
               and mapping requests. Assisted coworkers with varying technical
               skills on how to use GIS tools and interpret GIS data.
-              <p className="paragraph paragraph--description">
+              <br />
                 Non-GIS Planning Projects: awarded and completed a $12,000{" "}
                 <a
                   href="https://www.sec.state.ma.us/mhc/mhcspg/spg-recipients.htm"
@@ -79,7 +79,7 @@ const Experience = () => {
                 >
                   Rain Garden
                 </a>.
-              </p>
+            
             </p>
           </div>
 
